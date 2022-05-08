@@ -13,5 +13,6 @@ namespace BusinessManagementSystem.Interface
     {
         IResponse<DtoStaffToken> Login(DtoLogin login);
         IResponse<DtoRegister> Register(DtoRegister register);
+        DtoStaff GetById(int id);
     }
 }

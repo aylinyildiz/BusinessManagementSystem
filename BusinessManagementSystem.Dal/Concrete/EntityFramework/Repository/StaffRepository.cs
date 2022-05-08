@@ -18,6 +18,11 @@ namespace BusinessManagementSystem.Dal.Concrete.EntityFramework.Repository
             this.context = context;
         }
 
+        public Staff GetById(int id)
+        {
+            return dbset.Where(x => x.Id == id).SingleOrDefault();
+        }
+
         public Staff Login(Staff login)
         {
             var staff = dbset.Where(x => x.Email == login.Email && x.Password == login.Password).SingleOrDefault();

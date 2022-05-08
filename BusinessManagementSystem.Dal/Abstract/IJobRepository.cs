@@ -9,6 +9,6 @@ namespace BusinessManagementSystem.Dal.Abstract
 {
     public interface IJobRepository
     {
-
+    
     }
 }

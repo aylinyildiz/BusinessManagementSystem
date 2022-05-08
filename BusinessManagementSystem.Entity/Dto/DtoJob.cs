@@ -1,4 +1,5 @@
 ﻿using BusinessManagementSystem.Entity.Base;
+using BusinessManagementSystem.Entity.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,7 +15,7 @@ namespace BusinessManagementSystem.Entity.Dto
            
         }
 
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string Title { get; set; }
         public string Detail { get; set; }
         public DateTime? StartDate { get; set; }
@@ -25,6 +26,5 @@ namespace BusinessManagementSystem.Entity.Dto
         public int? JobTakerId { get; set; }
         public int PrioritiesId { get; set; }
 
-      
     }
 }

@@ -11,10 +11,12 @@ namespace BusinessManagementSystem.Dal.Concrete.EntityFramework.Repository
 {
     public class JobRepository : GenericRepository<Job>, IJobRepository
     {
+        private readonly DbContext context;
         public JobRepository(DbContext context) : base(context)
         {
-
+            this.context = context;
         }
+
 
     }
 }

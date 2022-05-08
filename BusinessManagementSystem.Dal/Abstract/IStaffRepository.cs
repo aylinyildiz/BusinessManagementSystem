@@ -11,5 +11,6 @@ namespace BusinessManagementSystem.Dal.Abstract
     {
         Staff Login(Staff login);
         Staff Register(Staff register);
+        Staff GetById(int id);
     }
 }

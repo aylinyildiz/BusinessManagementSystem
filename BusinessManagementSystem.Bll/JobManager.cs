@@ -13,13 +13,11 @@ namespace BusinessManagementSystem.Bll
 {
     public class JobManager : GenericManager<Job, DtoJob>, IJobService
     {
-        public readonly IJobRepository jobRepository;
-
-        public JobManager(IServiceProvider service) : base(service)
+        public JobManager(IServiceProvider service, IJobRepository jobRepository) : base(service)
         {
-
+        
         }
 
-       
+     
     }
 }

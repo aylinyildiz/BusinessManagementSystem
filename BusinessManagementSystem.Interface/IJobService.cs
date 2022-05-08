@@ -11,6 +11,5 @@ namespace BusinessManagementSystem.Interface
 {
     public interface IJobService : IGenericService<Job, DtoJob>
     {
-
     }
 }

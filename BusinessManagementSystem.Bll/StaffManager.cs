@@ -113,9 +113,9 @@ namespace BusinessManagementSystem.Bll
               
         //        mail.IsBodyHtml = true;
         //        //Bu kısım mail'in kime gideceğidir.Kendi adresimi yazdım.
-        //        mail.To.Add("aylinyildiz1628@icloud.com");
+        //        mail.To.Add("ay@icloud.com");
         //        //Burası ise kimin göndereceğidir.Kim gönderecek?
-        //        mail.From = new MailAddress("aylinyildiz1628@gmail.com");
+        //        mail.From = new MailAddress("ay@gmail.com");
         //        //Gelen mailin konusu
         //        mail.Subject = topic;
         //        //Gelen mailin içeriği
@@ -124,7 +124,7 @@ namespace BusinessManagementSystem.Bll
         //        //Bu kısımda smtp classında instance oluşturuyoruz.
         //        SmtpClient smtp = new SmtpClient();
         //        //Burada maili gönderen kişinin mail adresi ve şifresi alınıyor.
-        //        smtp.Credentials = new NetworkCredential("aylinyildiz1628@gmail.com", "Aylin190303!");
+        //        smtp.Credentials = new NetworkCredential("ay@gmail.com", "abcx");
         //        //Hangi portu kullanacağımızı yazıyoruz.
         //        smtp.Port = 18595;
         //        //Hangi mail adresini kullanacağızı seçiyoruz.

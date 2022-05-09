@@ -23,6 +23,5 @@ namespace BusinessManagementSystem.Entity.Dto
         public int RoleId { get; set; }
         public int DepartmentId { get; set; }
 
-       
     }
 }
